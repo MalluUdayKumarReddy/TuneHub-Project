@@ -1,0 +1,63 @@
+/* Reset some default styles for browsers */
+body, h1, p, div, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center align and style the main container */
+.main {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #fcfc7c; /* Light gray background color */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #e0e0e0; /* Light gray border color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Style the main heading */
+h1 {
+    color: #333; /* Dark text color */
+    margin-bottom: 30px;
+}
+
+/* Style the navigation links */
+.addsong a, .viewsong a, .createplaylist a, .viewpllist a {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transition effects */
+}
+
+/* Default background and border color for links */
+.addsong a, .viewsong a, .createplaylist a, .viewpllist a {
+    background-color: #007bff; /* Blue background color */
+    border: 1px solid #0056b3; /* Darker blue border color */
+}
+
+/* Hover effects for navigation links */
+.addsong a:hover, .viewsong a:hover, .createplaylist a:hover, .viewpllist a:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+    border-color: #003366; /* Darker border color on hover */
+}
+
+/* Additional styling for each link for a more distinct hover effect */
+.addsong a:hover {
+    background-color: #28a745; /* Green color on hover */
+    border-color: #218838; /* Darker green border color on hover */
+}
+
+.viewpllist a:hover {
+    background-color: #dc3545; /* Red color on hover */
+    border-color: #c82333; /* Darker red border color on hover */
+}
+
+.createplaylist a:hover {
+    background-color: #ffc107; /* Yellow color on hover */
+    border-color: #e0a800; /* Darker yellow border color on hover */
+}

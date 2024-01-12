@@ -1,0 +1,50 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Container styling */
+.main {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #ffffc1;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  color: #008080;
+  margin-bottom: 30px;
+}
+
+/* Logout button styling */
+.logout {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logout a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #80ff00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.logout a:hover {
+  background-color: #004466;
+}

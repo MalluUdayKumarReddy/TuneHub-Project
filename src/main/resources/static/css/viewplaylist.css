@@ -1,0 +1,66 @@
+/* Style for the main container */
+.main {
+  font-family: Arial, sans-serif; /* Set font family */
+  padding: 20px; /* Add padding */
+  background-color: #f9f9f9; /* Set background color */
+}
+
+/* Style for the header */
+h1 {
+  color: #333; /* Set text color */
+  border-bottom: 2px solid #ff00ff; /* Add bottom border */
+  padding-bottom: 10px; /* Add padding at the bottom */
+}
+
+/* Style for the table */
+table {
+  width: 70%; /* Set table width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 20px; /* Add margin at the top */
+}
+
+/* Style for table headers */
+th {
+  background-color: #ffff00; /* Set background color */
+  color: #400040; /* Set text color */
+  padding: 10px; /* Add padding */
+  text-align: left; /* Align text to the left */
+}
+
+/* Style for table rows */
+tr {
+  border-bottom: 1px solid #ddd; /* Add bottom border */
+}
+
+/* Style for table cells */
+td {
+  padding: 10px; /* Add padding */
+}
+
+/* Style for audio controls */
+audio {
+  width: 80%; /* Set width */
+  margin-top: 10px; /* Add margin at the top */
+}
+
+/* Style for list items */
+li {
+  list-style-type: none; /* Remove default list style */
+  margin-bottom: 5px; /* Add margin at the bottom */
+}
+
+/* Style for song names */
+span {
+  font-weight: bold; /* Make text bold */
+}
+
+/* Style for links */
+a {
+  color: #ff00ff; /* Set link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for links */
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}

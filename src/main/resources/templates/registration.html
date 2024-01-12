@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tune hub : registration</title>
+<link rel="stylesheet" th:href="@{/css/registration.css}" />
+</head>
+<body>
+<div class="main">
+<h1>Register TuneHub</h1>
+<div class="div1">
+<form action="registration" method="post">
+<div class="username">
+                <label>Username : </label>
+                  <input type="text" name="username"/><br>
+                  </div>
+                  <div class="email">
+                <label>Email : </label>
+                  <input type="email" name="email"/> <br>
+                  </div>
+                  <div class="password">
+     <label>Password : </label>
+    <input type="password" name="password"/>
+    <br>
+    </div>
+    <div class="gender">
+    <label>Gender : </label>
+    Male  <input type="radio" name="gender" value="male"/>
+    Female  <input type="radio" name="gender" value="female"/>
+    Others  <input type="radio" name="gender" value="other"/>
+    <br><br>
+    </div>
+    <div class="radio">
+    <label>Role : </label>
+    Admin  <input type="radio" name="role" value="admin"/>
+    Customer  <input type="radio" name="role" value="customer"/>
+    <br><br>
+    </div>
+    <div class="address">
+    <label>Address : </label>
+    <textarea name="address"></textarea>
+    <br>
+    </div>
+    <div class="submit">
+    <input type="submit" value="REGISTER"/>
+    </div>
+    </form>
+    </div>
+    </div>
+</body>
+</html>

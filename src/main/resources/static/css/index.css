@@ -1,0 +1,44 @@
+/* Styles for .total container */
+.total {
+    display: flex; /* Using flexbox for layout */
+    justify-content: center; /* Centering child elements horizontally */
+    align-items: center; /* Centering child elements vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4; /* Background color */
+}
+
+/* Common styles for .div1 and .div2 */
+.div1, .div2 {
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Centering text content */
+    margin: 20px; /* Space between divs */
+    width: 200px; /* Set width */
+    height: 100px; /* Set height */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #333; /* Border color and thickness */
+    background-color: #fff; /* Background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for a subtle lift effect */
+}
+
+/* Style for .div1 */
+.div1 {
+    border-color: #FF4500; /* Custom border color */
+}
+
+/* Style for .div2 */
+.div2 {
+    border-color: #4CAF50; /* Custom border color */
+}
+
+/* Text style for h1 inside .div1 and .div2 */
+.div1 h1, .div2 h1 {
+    color: #333; /* Text color */
+    font-size: 24px; /* Font size */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+/* Hover effect for better user interaction */
+.div1:hover, .div2:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}

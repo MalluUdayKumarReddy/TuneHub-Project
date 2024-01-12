@@ -1,0 +1,77 @@
+/* Resetting default margin and padding for better consistency */
+body, h1, form, label, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting a background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d0039;
+}
+
+/* Styling the main container */
+.main {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the form heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling form elements and their containers */
+.div1 {
+    padding: 15px;
+    border-radius: 8px;
+    border: 4px solid #000000;
+    margin-bottom: 20px;
+}
+
+/* Styling labels */
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+/* Styling input fields and text areas */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0000ff;
+    border-radius: 4px;
+    box-sizing: border-box; /* To ensure padding and border are included in width */
+}
+
+/* Styling radio buttons */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Styling submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff00;
+    border: none;
+    border-radius: 4px;
+    color: #fdfecb;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #ff0000;
+}

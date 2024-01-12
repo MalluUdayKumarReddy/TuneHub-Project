@@ -1,0 +1,48 @@
+02/01/2024
+====>creating tunehub project
+====>register page
+
+03/01/2024
+====>register page functionality duplicate emails not allowed
+
+====>creating main page inside main page we have two anchor tags login and register
+
+====>validate the login page by taking the two credentials email and password
+
+====>based on role control will go to the admin/customer page 
+
+04/01/2024
+====>In admin page we create the hyperlink ADD SONGS and VIEW ALL SONGS
+   =>creting the entity datamembers for storing the add songs
+   =>seperate classes controller and services and repository
+   =>add songs adding the song detail store the data in database by using new classes in save() method-(crete the database)
+   => while adding the song duplicate song names are not allowed
+   =>view all songs hyperlink return all the data in database by using the get data method(read the data)
+05/01/2024
+
+====>In customer page also create view all songs
+   =>writing the logic in controller,services fetch all list data to the controller model(model is used to store the data passing to web page)
+   =>while add songs we are submitting the iframe now we are changing by using github crete the link and submitting the link.
+   =>normally, viewallsongs is diplaying in link formatt,now we changing that playable song using thymeleaf audio tags controls in diplaying page.
+====>In customer page we create the huperlink PLAY SONGS.
+   =>playsongs is open who are done payments.
+   =>if user is premium it will open otherwise make payment first.
+   
+08/01/2024
+====>Adding playlist hyperlink in adminhome page
+   =>user can add some songs in playlist internally we are fecthing all the interested song storing into perticular method and selected all songs finally add playlist button  
+====>In customerhome page we are adding subscribe payment method those who are done payments they will be get songs other wise payment first.
+   =>This payment methos is applaying in login time when users payment done redirected to customerhome page otherwise redirected to subscribe payments.
+09/01/2024
+ 
+
+
+10/01/2024
+====>All html pages styling only
+11/01/2024
+
+
+12/01/2024
+
+
+

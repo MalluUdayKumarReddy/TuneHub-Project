@@ -1,0 +1,63 @@
+/* Resetting default margin and padding */
+body, h1, p, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting a background color for the body */
+body {
+    font-family: Arial, sans-serif; /* Setting a default font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+/* Styling the main container */
+.main {
+    max-width: 800px; /* Maximum width for content */
+    margin: 50px auto; /* Center the content */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Styling the heading */
+h1 {
+    font-size: 2em; /* Large font size */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Dark text color */
+}
+
+/* Styling the paragraph */
+.para1 p {
+    font-size: 1em; /* Medium font size */
+    line-height: 1.6; /* Spacing between lines */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Styling the form section */
+.formsub {
+    text-align: center; /* Center align the button */
+}
+
+/* Styling the button */
+.buy-button {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Medium font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for the button */
+.buy-button:hover {
+    background-color: #00ff00; /* Darker blue on hover */
+}
+
+/* Styling the form for potential future use */
+#payment-form {
+    /* Add any specific styles if needed */
+}
